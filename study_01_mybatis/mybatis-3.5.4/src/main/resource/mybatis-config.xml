@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--读取属性文件-->
+    <properties resource="jdbc.properties"></properties>
+
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+    <typeAliases>
+        <!--给某一个类起别名type:类型   alias:别名-->
+         <!--<typeAlias type="com.bjsxt.pojo.Flower" alias="abc"></typeAlias>-->
+        <!--给某一个包下所有的类起别名  别名就是类名 不区分大小写-->
+        <package name="com.htsf.pojo"/>
+    </typeAliases>
+
+
+    <!--default:指定连接哪一个环境的ID-->
+     <environments default="mysql">
+         <!--链接mysql的环境-->
+         <environment id="mysql">
+             <!--当前的事务管理 当前mybatis的事务和JDBC的事务保持一致-->
+             <transactionManager type="JDBC"></transactionManager>
+             <!--底层采用的是数据库连接池的方式进行操作 -->
+             <dataSource type="POOLED">
+                 <!--指定连接数据库的四个部分 注意name值不可以随意指定 因为mybatis需要根据name属性读取value-->
+                 <property name="driver" value="${s_driver}"/>
+                 <property name="url" value="${s_url}"/>
+                 <property name="username" value="${s_username}"/>
+                 <property name="password" value="${s_pwd}"/>
+             </dataSource>
+         </environment>
+         <!--链接orcl的环境-->
+         <!--<environment id="a2">
+             <transactionManager type=""></transactionManager>
+             <dataSource type=""></dataSource>
+         </environment>-->
+     </environments>
+
+
+     <!--解析mapper.xml文件-->
+    <mappers>
+        <!--注意这个位置书写的时候是目录所以使用/进行分割-->
+        <!--是相对路径地址-->
+<!--        <mapper resource="com/bjsxt/mapper/FlowerMapper.xml"></mapper>-->
+        <!--书写的是绝对路径地址从 盘符出发-->
+        <!--<mapper url="file:///D:/FlowerMapper.xml"></mapper>-->
+    </mappers>
+
+</configuration>
