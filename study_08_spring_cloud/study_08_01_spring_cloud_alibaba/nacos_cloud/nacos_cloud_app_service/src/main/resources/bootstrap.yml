@@ -1,0 +1,30 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: nacos-cloud-appservice
+  cloud:
+    nacos: # 配置nacos相关信息
+      # server-addr: 192.168.8.128:8848 # 配置nacos服务器地址。默认localhost:8848
+      discovery: # 配置nacos注册中心相关信息。
+        server-addr: 192.168.222.128:9000 # 配置nacos注册中心地址。默认${spring.cloud.nacos.server-addr}
+        service: nacos-cloud-appservice # 注册到nacos中的spring cloud restful服务名。默认${spring.application.name}
+        group: study #服务的分组。默认值DEFAULT_GROUP。基于Nacos注册的服务会划分分组。同组服务可发现。
+      config:
+        server-addr: 192.168.222.128:9000  #默认localhost:8848
+        group: study   #配置文件分组  默认是 DEFAULT_GROUP
+        prefix: suibian   #要读取的配置文件的 data id。默认是${spring.application.name}
+        file-extension: yaml  # 要读取的配置文件扩展名  默认是properties
+dubbo:
+  application:
+    name: nacos-dubbo-provider   # dubbo服务的名称
+    id: nacos-dubbo-provider
+  registry:
+    address: nacos://192.168.222.128:9000
+    group: study
+  protocol:
+    name: dubbo # 协议名称。默认dubbo
+    port: -1 # 协议端口。默认20880。定义成-1，可以实现自动递增。从20880开始。自然数递增。
+
+
+

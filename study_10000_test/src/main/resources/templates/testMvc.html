@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <div>
+        班级id: <input name="id" value="1"><br>
+        班级名称: <input name="name" value="班级名称"><br>
+        学生一id: <input name="students[0].id" value="1"><br>
+        学生一名称: <input name="students[0].name" value="学生一名称"><br>
+        学生一语文成绩: <input name="students[0].scores[0].sub" value="语文"><br>
+    </div>
+    <input type="hidden" name="students[0].scoreMap['语文']" value="80">
+    <input type="hidden" name="students[0].scoreMap['数学']" value="90">
+    学生一语文成绩: <input name="students[0].scores[0].num" value="80"><br>
+    学生一数学成绩: <input name="students[0].scores[1].sub" value="数学"><br>
+    学生一数学成绩: <input name="students[0].scores[1].num" value="90"><br>
+    学生二id: <input name="students[1].id" value="2"><br>
+    学生二名称: <input name="students[1].name" value="学生二名称"><br>
+    学生二语文成绩: <input name="students[1].scores[0].sub" value="语文"><br>
+    学生二语文成绩: <input name="students[1].scores[0].num" value="100"><br>
+    学生二数学成绩: <input name="students[1].scores[1].sub" value="数学"><br>
+    学生二数学成绩: <input name="students[1].scores[1].num" value="100"><br>
+
+<!--    <input type="button" onclick="submit()" value="提交"></input>-->
+    <a href="javascript:void(0)" onclick="submit()">submit</a>
+</form>
+
+<script src="js/jquery.js"></script>
+<script>
+    function submit() {
+        $.ajax({
+            url: "/testMvc",
+            type: "post",
+            data: $("form").serialize(),
+            contestType: "application/json;charset=utf-8",
+            success: function (resp) {
+                console.log(resp);
+            }
+        })
+    }
+</script>
+</body>
+</html>

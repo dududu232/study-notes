@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="0">
+            <thead>
+            <tr>
+                <td>id</td>
+                <td>name</td>
+                <td>sex</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input name="scores[0].id" value="1"></td>
+                <td><input name="scores[0].num" value="90"></td>
+                <td><input name="scores[0].sub" value="语文"></td>
+            </tr>
+            <tr>
+                <td><input name="scores[1].id" value="2"></td>
+                <td><input name="scores[1].num" value="99"></td>
+                <td><input name="scores[1].sub" value="数学"></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+<a href="javascript:void(0)" onclick="submit()">提交</a>
+    <script src="js/jquery.js"></script>
+    <script>
+        function submit() {
+            var arr = $("form").serializeArray();
+            arr.push({
+                name: "name",
+                value: "张三"
+            })
+           $.post("/testMvc2",arr,function (resp) {
+               console.log(resp);
+           })
+        }
+    </script>
+</body>
+</html>

@@ -11,6 +11,27 @@
     <modules>
         <module>study_01_mybatis</module>
         <module>study_10000_test</module>
+        <module>study_999_leetcode</module>
+        <module>study_02_oracle_partition</module>
+        <module>study_04_jdk</module>
+        <module>study_998_interview</module>
+        <module>study_05_logic_flow</module>
+        <module>study_06_mysql</module>
+        <module>study_07_ShardingSphere</module>
+        <module>study_08_spring_cloud</module>
+        <module>study_10001_test</module>
+        <module>study_09_rocketmq</module>
+        <module>study_10_vue</module>
+        <module>study_11_docker</module>
+        <module>study_12_websocket</module>
+        <module>study_13_ai</module>
+        <module>study_14_code_generator</module>
+        <module>study_15_AsposeWordTocGenerator</module>
+        <module>study_16_file_conversion</module>
+        <module>study_10002_web</module>
+        <module>study_17_springboot3</module>
+        <module>study_18_python</module>
+
     </modules>
 
 

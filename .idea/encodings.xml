@@ -2,5 +2,39 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/study_01_mybatis/mybatis-3.5.4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_10002_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_10002_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-01-helloword/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-01-helloword/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-02-ollama/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-02-ollama/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-03-ChatModelChatClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-03-ChatModelChatClient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-04-streamingOutput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-04-streamingOutput/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-05-Prompt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-05-Prompt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-06-PromptTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-06-PromptTemplate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-07-StructuredOutput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/saa-07-StructuredOutput/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_13_ai/study_13_ai_springaialibaba/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_15_knife4j/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_15_knife4j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_16_file_conversion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_16_file_conversion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_16_markdownToPdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_16_markdownToPdf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_file_conversion_plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_file_conversion_plus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_markdownToPdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_markdownToPdf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_springboot3/02_reactor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_springboot3/02_reactor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_springboot3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_17_springboot3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_18_python/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_18_python/src/main/resources" charset="UTF-8" />
   </component>
 </project>

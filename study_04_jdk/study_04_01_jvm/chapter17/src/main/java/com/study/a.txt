@@ -1,0 +1,11 @@
+Attaching to process ID 30256, please wait...
+Debugger attached successfully.
+Server compiler detected.
+JVM version is 25.221-b11
+Non-default VM flags:
+-XX:CICompilerCount=12
+-XX:InitialHeapSize=266338304 -XX:MaxHeapSize=4238344192 -XX:MaxNewSize=1412431872 -XX:MinHeapDeltaBytes=524288
+-XX:NewSize=88604672 -XX:OldSize=177733632 -XX:+UseCompressedClassPointers
+-XX:+UseCompressedOops -XX:+UseFastUnorderedTimeStamps -XX:-UseLargePagesIndividualAllocation
+-XX:+UseParallelGC
+Command line:  -javaagent:C:\Development\idea2019\lib\idea_rt.jar=54814:C:\Development\idea2019\bin -Dfile.encoding=UTF-8

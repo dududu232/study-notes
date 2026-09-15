@@ -1,0 +1,19 @@
+server:
+  port: 8003
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: saa-03-ChatModelChatClient
+
+
+  ai:
+    dashscope:
+      api-key: ${ai-api-key}
+      chat:
+        options:
+          model: deepseek-v4-pro

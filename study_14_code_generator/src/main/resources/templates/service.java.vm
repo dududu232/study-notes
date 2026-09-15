@@ -1,0 +1,24 @@
+package ${package.Service};
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.tiamo.dt.dev.db.pojo.page.PageParam;
+import ${package.Entity}.${entity};
+import ${superServiceClassPackage};
+
+/**
+ * $!{table.comment} 服务类
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public interface ${table.serviceName} extends ${superServiceClass}<${entity}> {
+
+    /**
+     * 通过实体类获取QueryWrapper
+     * @param pageParam 分页参数
+     * @param $!{table.entityPath} 实体信息
+     * @return
+     */
+    QueryWrapper<$!{entity}> getQueryWrapper(PageParam pageParam, $!{entity} $!{table.entityPath});
+
+}

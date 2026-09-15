@@ -2,13 +2,47 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="study_10000_test" />
-        <module name="study_01_mybatis" />
+        <module name="study_13_ai_LangChain4J" />
+        <module name="study_15_AsposeWordTocGenerator" />
+        <module name="study_998_01_jvm" />
+        <module name="saa-02-ollama" />
         <module name="mybatis" />
+        <module name="study_18_python" />
+        <module name="study_12_websocket_distributed" />
+        <module name="study_16_markdownToPdf" />
+        <module name="study_10002_web" />
+        <module name="saa-01-helloword" />
+        <module name="study_04_02_test" />
+        <module name="saa-04-streamingOutput" />
+        <module name="nacos_cloud_app_client" />
+        <module name="study_10_vue" />
+        <module name="study_16_file_conversion" />
+        <module name="study_09_rocketmq_client" />
+        <module name="nacos_cloud_app_service" />
+        <module name="study_10001_test" />
+        <module name="study_06_mysql" />
+        <module name="study_10000_test" />
+        <module name="study_02_oracle_partition" />
+        <module name="study_07_ShardingSphere" />
+        <module name="saa-07-StructuredOutput" />
+        <module name="study_11_docker" />
+        <module name="study_14_code_generator" />
+        <module name="chapter16" />
+        <module name="chapter17" />
+        <module name="study_15_knife4j" />
+        <module name="study_17_markdownToPdf" />
+        <module name="study_05_logic_flow" />
+        <module name="saa-05-Prompt" />
+        <module name="dubbo_service" />
+        <module name="saa-03-ChatModelChatClient" />
+        <module name="study_999_leetcode" />
+        <module name="02_reactor" />
+        <module name="saa-06-PromptTemplate" />
       </profile>
     </annotationProcessing>
   </component>

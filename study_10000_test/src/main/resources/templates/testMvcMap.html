@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <input type="checkbox" name="map[cc]" value="aa">
+        <input type="checkbox" name="map[cc" value="bb">
+    </form>
+    <button type="button" value="" onclick="submit()">submit</button>
+    <script src="js/jquery.js"></script>
+    <script>
+        function submit() {
+            console.log(11)
+            $.post("/testMvcMap",$("form").serializeArray(),function (res) {
+
+            })
+        }
+    </script>
+</body>
+</html>

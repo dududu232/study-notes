@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <textarea id="msgInput"></textarea>
+    <button onclick="sendMsg()">发送</button>
+
+    <div id="msg"></div>
+
+
+<script>
+    function sendMsg(){
+        const msg = document.getElementById("msgInput").value;
+        if (!msg) return false;
+
+
+        const eventSource = new EventSource("/stream/chatflux3?msg="+msg);
+
+
+        eventSource.onmessage = function (event){
+            const data = event.data;
+            var msgDiv = document.getElementById("msg");
+            msgDiv.innerHTML += data;
+
+        }
+
+        eventSource.onerror = function (err) {
+            console.error(err);
+            //eventSource.close();
+        }
+
+    }
+
+</script>
+</body>
+</html>

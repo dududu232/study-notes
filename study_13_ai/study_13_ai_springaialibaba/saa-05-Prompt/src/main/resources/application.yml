@@ -1,0 +1,26 @@
+server:
+  port: 8005
+
+  servlet:
+
+    ##大模型对话中文乱码UTF8处理
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+
+spring:
+  application:
+    name: SAA-05
+  ai:
+    dashscope:
+      api-key: 123
+      chat:
+        options:
+          model: deepseek-v4-pro
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+MAX_USER= 1
+USER_NAME = "张三"
+
+

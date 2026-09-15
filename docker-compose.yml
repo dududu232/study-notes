@@ -1,0 +1,31 @@
+version: '3.8'  # Compose版本，需与Docker版本兼容
+
+services:
+  # 1. Spring Boot应用服务
+  app:
+    build: ./study_11_docker  # 指向你的子模块目录（包含Dockerfile）
+    container_name: study-docker-app  # 容器名
+    ports:
+      - "8080:8080"  # 端口映射（宿主机:容器）
+    depends_on:
+      - mysql  # 依赖mysql服务，启动时先启动mysql
+    environment:  # 环境变量（可选，配置应用连接数据库的信息）
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/your_db?useSSL=false&serverTimezone=UTC
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=123456
+
+  # 2. MySQL数据库服务
+  mysql:
+    image: mysql  # 使用的镜像
+    container_name: study-docker-mysql
+    ports:
+      - "3306:3306"
+    environment:  # MySQL初始化配置
+      - MYSQL_ROOT_PASSWORD=123456  # root密码
+      - MYSQL_DATABASE=your_db  # 自动创建的数据库名
+    volumes:
+      - mysql-data:/var/lib/mysql  # 数据卷（持久化MySQL数据）
+
+# 数据卷（持久化数据，容器删除后数据不丢失）
+volumes:
+  mysql-data:

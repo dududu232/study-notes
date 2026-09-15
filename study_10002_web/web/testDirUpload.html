@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试文件夹上传</title>
+</head>
+<body>
+    <div>
+        <input type="file" id="folderPicker" webkitdirectory multiple />
+    </div>
+
+
+<script>
+
+
+
+    document.getElementById('folderPicker').addEventListener('change', (event) => {
+    const files = event.target.files;
+    for (const file of files) {
+      // 打印文件的相对路径（相对于所选文件夹）
+      console.log(file);
+      // 也可以在这里做上传处理
+    }
+    console.log(`共选择了 ${files.length} 个文件`);
+  });
+
+</script>
+</body>
+</html>

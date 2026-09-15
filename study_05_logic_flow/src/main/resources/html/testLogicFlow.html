@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 引入 core包 -->
+<!--    <link rel="stylesheet" href="../js/@logicflow/core/dist/style/index.css" />-->
+    <link rel="stylesheet" href="../js/@logicflow/core/dist/style/index.css" />
+    <!-- 引入 extension包样式 -->
+    <link rel="stylesheet" href="../js/@logicflow/extension/lib/style/index.css" />
+    <style>
+        #container {
+            width: 100%;
+            height: 1000px
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+
+
+<script src="../js/@logicflow/core/dist/logic-flow.js"></script>
+<!-- 插件支持单个引入，这里以菜单插件为例 -->
+<script src="../js/@logicflow/extension/lib/Menu.js"></script>
+<script src="../js/@logicflow/extension/lib/Control.js"></script>
+<script src="../js/@logicflow/extension/lib/BpmnElement.js"></script>
+<script src="../js/@logicflow/extension/lib/BpmnAdapter.js"></script>
+<script src="../js/@logicflow/extension/lib/SelectionSelect.js"></script>
+<script src="../js/@logicflow/extension/lib/DndPanel.js"></script>
+<script src="../js/@logicflow/extension/lib/Snapshot.js"></script>
+<!--自定义开始节点-->
+<script src="../js/workFlow/customStartEvent.js"></script>
+
+
+
+<script>
+     LogicFlow.use(Control)
+    // LogicFlow.use(BpmnElement);
+    // LogicFlow.use(BpmnXmlAdapter);
+    // LogicFlow.use(Snapshot);
+    // LogicFlow.use(Control);
+    // LogicFlow.use(Menu);
+    // LogicFlow.use(SelectionSelect);
+     LogicFlow.use(DndPanel);
+
+
+    let lf = new LogicFlow({
+        container: document.querySelector('#container'),
+        grid: {
+          type:'dot',
+          size: 20
+        },
+
+    });
+
+    lf.render({
+        nodes: [
+            {
+                id: "1",
+                type: "rect",
+                x: 100,
+                y: 100,
+                text: "节点1",
+            },
+            {
+                id: "2",
+                type: "circle",
+                x: 300,
+                y: 200,
+                text: "节点2",
+            },
+        ],
+        edges: [
+            {
+                sourceNodeId: "1",
+                targetNodeId: "2",
+                type: "polyline",
+                text: "连线",
+            },
+        ],
+    });
+
+
+
+
+
+
+    lf.register(customStartEvent)
+
+    console.log(lf.getGraphData());
+</script>
+
+
+
+</body>
+</html>

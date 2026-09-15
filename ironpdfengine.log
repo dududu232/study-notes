@@ -1,0 +1,169 @@
+[2024-03-29 10:00:55] ---------- Windows v10.0.19045.0 (D:\study-notes\ironpdfengine.log) ----------
+[2024-03-29 10:00:55] Using deployment directory 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\'
+[2024-03-29 10:00:55] Creating deployment candidates using root path 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\' (download: False)
+[2024-03-29 10:00:55] Creating folder deployments for win-x64
+[2024-03-29 10:00:56] Creating embedded deployments for win-x64
+[2024-03-29 10:00:56] Successfully located 'IronInterop' at 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\'
+[2024-03-29 10:00:56] Determining deployment commands for platform 'Windows' v10.0.19045.0
+[2024-03-29 10:00:56] Using deployment instructions for 'default' v
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\ucrtbase.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\ucrtbase.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\ucrtbase.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\vcruntime140.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\vcruntime140.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\vcruntime140.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\vcruntime140_1.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\vcruntime140_1.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\vcruntime140_1.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\msvcp140.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\msvcp140.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\msvcp140.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\dxva2.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\dxva2.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\dxva2.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\chrome_elf.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\chrome_elf.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\chrome_elf.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\libcef.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\libcef.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\libcef.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronInterop.dll'
+[2024-03-29 10:00:56] Attempting to load Windows library 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronInterop.dll'
+[2024-03-29 10:00:56] Successfully loaded native library from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronInterop.dll'
+[2024-03-29 10:00:56] Successfully loaded 'IronInterop' version '2023.1.0.11387' from 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\'
+[2024-03-29 10:00:56] Successfully deployed 'IronPdf' using 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\'
+[2024-03-29 10:00:56] Initializing Chrome renderer for OS Name: Windows, Identifier: win, Version: 10.0.19045.0, VersionName: , Domain: IronPdfEngine, Thread: , Path: D:\study-notes
+[2024-03-29 10:00:56] 10:00:56 (13872): Detected operating system windows
+[2024-03-29 10:00:56] 10:00:56 (13872): ~ Chrome renderer v2023.1.0.11387~
+[2024-03-29 10:00:56] 10:00:56 (13872): IsSingleProcess: 0
+[2024-03-29 10:00:56] 10:00:56 (13872): Creating Cef proxy controller
+[2024-03-29 10:00:56] 10:00:56 (13872): Creating Cef interface
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new lifespan events
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new browser process handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new load handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new render handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new render process handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new print handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new dev tools handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new dev tools registration factory
+[2024-03-29 10:00:56] 10:00:56 (13872): Created new lifespan handler
+[2024-03-29 10:00:56] 10:00:56 (13872): Assigning Cef proxy controller events...
+[2024-03-29 10:00:56] 10:00:56 (13872): Assigning Cef proxy controller stream provider...
+[2024-03-29 10:00:56] 10:00:56 (13872): Initializing Cef proxy controller
+[2024-03-29 10:00:56] 10:00:56 (13872): Using subprocess path 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe'
+[2024-03-29 10:00:56] 10:00:56 (13872): Using framework path 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\'
+[2024-03-29 10:00:56] 10:00:56 (13872): Using locales path 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales'
+[2024-03-29 10:00:56] 10:00:56 (13872): Using resources path 'D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\'
+[2024-03-29 10:00:56] 10:00:56 (13872): Using resources path 'C:\Users\鍔炲叕涓撶敤鐢佃剳\AppData\Local\Temp\'
+[2024-03-29 10:00:56] 10:00:56 (13872): Process os_name: 'windows'
+[2024-03-29 10:00:56] 10:00:56 (13872): gpu_mode: '0'
+[2024-03-29 10:00:56] 10:00:56 (13872): Launching Main process '"D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronPdfEngine.exe" --browser-subprocess-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe" --no-sandbox --lang=en-US --log-file=cef.log --log-severity=disable --resources-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64" --locales-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales" --disable-features=CalculateNativeWinOcclusion,WinUseBrowserSpellChecker,BackForwardCache --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests host=127.0.0.1 port=50754 enable_debug=false log_path=ironpdfengine.log programming_language=java license_key=null'
+[2024-03-29 10:00:56] 10:00:56 (12864): Process os_name: 'windows'
+[2024-03-29 10:00:56] 10:00:56 (12864): gpu_mode: '0'
+[2024-03-29 10:00:56] 10:00:56 (12864): Launching child process '"D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe" --type=gpu-process --no-sandbox --headless --locales-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales" --log-severity=disable --resources-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64" --lang=en-US --user-data-dir="C:\Users\鍔炲叕涓撶敤鐢佃剳\AppData\Local\Temp" --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests /prefetch:2'
+[2024-03-29 10:00:56] 10:00:56 (13872): Cef initialization succeeded
+[2024-03-29 10:00:56] 10:00:56 (12864): Cef context initialized
+[2024-03-29 10:00:56] 10:00:56 (12864): Registering custom scheme for rendering raw html
+[2024-03-29 10:00:56] 10:00:56 (12864): Successfully registered custom scheme
+[2024-03-29 10:00:56] 10:00:56 (12864): Cef engine initialization complete
+[2024-03-29 10:00:56] 10:00:56 (12864): Process os_name: 'windows'
+[2024-03-29 10:00:56] 10:00:56 (12864): gpu_mode: '0'
+[2024-03-29 10:00:56] 10:00:56 (12864): Launching child process '"D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales" --log-severity=disable --resources-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64" --lang=en-US --user-data-dir="C:\Users\鍔炲叕涓撶敤鐢佃剳\AppData\Local\Temp" --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests /prefetch:8'
+[2024-03-29 10:00:57] 10:00:57 (5216): Generating pdf from html
+[2024-03-29 10:00:57] 10:00:57 (5216): BROWSER SETTINGS:
+View: 1024x1280
+Enable Javascript: 1
+Username: 
+
+[2024-03-29 10:00:57] 10:00:57 (5216): RENDER SETTINGS:
+Backgrounds: 1, Emulate Screen: 1, Forms: 1, Landscape : 0
+Scale: 1
+Page Size Type: A4
+Custom Page Size: 210x297
+Actual Page Size: 210x297
+Page Margin Type: 2
+Margin Top: 25, Right: 25, Bottom: 25, Left: 25
+Header Html: 
+Footer Html: 
+Javascript: 
+Autosize Screen: 0, PPI: 96
+Title: 
+First Page Number: 1
+Save Path: 
+Render Delay: 0
+Max Header Height: 200, Max Footer Height : 200
+
+[2024-03-29 10:00:57] 10:00:57 (5216): Created new job group 0 for new document
+[2024-03-29 10:00:57] 10:00:57 (5216): Created job group 0
+[2024-03-29 10:00:57] 10:00:57 (5216): Queuing job 0
+[2024-03-29 10:00:57] 10:00:57 (5216): Checking for browser availability (0/30)
+[2024-03-29 10:00:57] 10:00:57 (5216): Creating new browser after waiting 0 seconds
+[2024-03-29 10:00:57] 10:00:57 (12864): Process os_name: 'windows'
+[2024-03-29 10:00:57] 10:00:57 (12864): gpu_mode: '0'
+[2024-03-29 10:00:57] 10:00:57 (12864): Launching child process '"D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --ignore-urlfetcher-cert-requests --no-sandbox --ignore-certificate-errors --mute-audio --ignore-certificate-errors --locales-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales" --log-severity=disable --resources-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64" --lang=en-US --user-data-dir="C:\Users\鍔炲叕涓撶敤鐢佃剳\AppData\Local\Temp" --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests /prefetch:8'
+[2024-03-29 10:00:57] 10:00:57 (12864): Created browser id 1, 1 exist
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 created and ready for assignment
+[2024-03-29 10:00:57] 10:00:57 (12864): Assigning job 0 to browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Processing job for html content on browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Process os_name: 'windows'
+[2024-03-29 10:00:57] 10:00:57 (12864): gpu_mode: '0'
+[2024-03-29 10:00:57] 10:00:57 (12864): Launching child process '"D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales" --log-severity=disable --resources-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64" --user-data-dir="C:\Users\鍔炲叕涓撶敤鐢佃剳\AppData\Local\Temp" --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2024-03-29 10:00:57] 10:00:57 (12864): Process os_name: 'windows'
+[2024-03-29 10:00:57] 10:00:57 (12864): gpu_mode: '0'
+[2024-03-29 10:00:57] 10:00:57 (12864): Launching child process '"D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\IronCefSubprocess.exe" --type=renderer --locales-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64\\locales" --log-severity=disable --resources-dir-path="D:\study-notes\IronPdfEngine.2023.1.11674.Windows.x64" --user-data-dir="C:\Users\鍔炲叕涓撶敤鐢佃剳\AppData\Local\Temp" --disable-web-security --disable-component-update --disable-background-downloads --disable-delta-updates --disable-pings --headless --hide-scrollbars --mute-audio --disable-gpu --disable-gpu-compositing --disable-software-rasterizer --disable-gpu-shader-disk-cache --disable-dev-shm-usage --enable-media-stream --no-sandbox --ignore-certificate-errors --ignore-ssl-errors --ignore-urlfetcher-cert-requests'
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 loading state changed to 1 for url ''
+[2024-03-29 10:00:57] 10:00:57 (16448): Received resource request from null for http://ironsoftwarescheme.com/ on browser 1 (nav: 1, dl: 0)
+[2024-03-29 10:00:57] 10:00:57 (16448): Resolved resource request using default handler
+[2024-03-29 10:00:57] 10:00:57 (16448): Creating resource handler for custom scheme http using url http://ironsoftwarescheme.com/ on browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 frame 21474836481 started loading http://ironsoftwarescheme.com/
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 status: 
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser process received message: 'OnBrowserCreated'
+[2024-03-29 10:00:57] 10:00:57 (12864): Received message from render process with 0 bytes
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 frame 21474836481 ended loading http://ironsoftwarescheme.com/
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 loading state changed to 0 for url 'http://ironsoftwarescheme.com/'
+[2024-03-29 10:00:57] 10:00:57 (12864): Frame loaded for job 0 on browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Found job 0 in group 0 (of 1 groups)
+[2024-03-29 10:00:57] 10:00:57 (12864): Executing dev tools method 'Emulation.setEmulatedMedia' for browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Executing dev tools method 'Page.getLayoutMetrics' for browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Received dev tools message on browser 1: '{"id":1,"result":{}}' (size: 20)
+[2024-03-29 10:00:57] 10:00:57 (12864): Finished dev tools method on browser 1 (message ID: 1)
+[2024-03-29 10:00:57] 10:00:57 (12864): Received dev tools message on browser 1: '{"id":2,"result":{"layoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"visualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"contentSize":{"x":0,"y":0,"width":1024,"height":1280},"cssLayoutViewport":{"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280},"cssVisualViewport":{"offsetX":0,"offsetY":0,"pageX":0,"pageY":0,"clientWidth":1024,"clientHeight":1280,"scale":1,"zoom":1},"cssContentSize":{"x":0,"y":0,"width":1024,"height":1280}}}' (size: 536)
+[2024-03-29 10:00:57] 10:00:57 (12864): Finished dev tools method on browser 1 (message ID: 2)
+[2024-03-29 10:00:57] 10:00:57 (12864): Sending DOM-visit process message for browser 1 (job ID: 0)
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser process received message: 'OnDomVisited'
+[2024-03-29 10:00:57] 10:00:57 (12864): Received message from render process with 120 bytes
+[2024-03-29 10:00:57] 10:00:57 (12864): Processed html for browser 1
+[2024-03-29 10:00:57] 10:00:57 (11992): Finished waiting for render delay
+[2024-03-29 10:00:57] 10:00:57 (11992): Scaling content to paper using a scale of 1
+[2024-03-29 10:00:57] 10:00:57 (11992): !!! Invalid (empty) temp path generated by operating system
+[2024-03-29 10:00:57] 10:00:57 (11992): Unknown exception
+[2024-03-29 10:00:57] 10:00:57 (11992): Error (source 1): 'Unknown exception'
+[2024-03-29 10:00:57] 10:00:57 (11992): Warning! Failed to generate temp file path in temp directory, defaulting to working directory 'D:\study-notes'
+[2024-03-29 10:00:57] 10:00:57 (11992): Printing from browser to 'D:\study-notes\8AFB.tmp'
+[2024-03-29 10:00:57] 10:00:57 (12864): Received browser print callback for path 'D:\study-notes\8AFB.tmp' (1)
+[2024-03-29 10:00:57] 10:00:57 (12864): Print finished for browser 1(success: 1)
+[2024-03-29 10:00:57] 10:00:57 (12864): Resolving job for browser 1 with 31362 bytes
+[2024-03-29 10:00:57] 10:00:57 (12864): PdfDocumentFactory created document 000002662BA66670 from 31362 bytes
+[2024-03-29 10:00:57] 10:00:57 (12864): Resolving job for browser 1 with 1 page document
+[2024-03-29 10:00:57] 10:00:57 (12864): No document title found
+[2024-03-29 10:00:57] 10:00:57 (12864): Retrieve Html title: 
+[2024-03-29 10:00:57] 10:00:57 (12864): Generating form fields
+[2024-03-29 10:00:57] 10:00:57 (12864): Adding default font for form fields
+[2024-03-29 10:00:57] 10:00:57 (12864): Initializing forms for document
+[2024-03-29 10:00:57] 10:00:57 (12864): Sorting 0 marked fields
+[2024-03-29 10:00:57] 10:00:57 (12864): Adding form fields to 1 pages
+[2024-03-29 10:00:57] 10:00:57 (12864): Generating bytes for document 000002662BA66670
+[2024-03-29 10:00:57] 10:00:57 (12864): Successfully generated 31574 bytes for document 000002662BA66670
+[2024-03-29 10:00:57] 10:00:57 (12864): PdfDocumentFactory closed document 000002662BA66670
+[2024-03-29 10:00:57] 10:00:57 (10120): Closing browser 1
+[2024-03-29 10:00:57] 10:00:57 (12864): Received dev tools message on browser 1: '{"method":"Inspector.detached","params":{"reason":"Render process gone."}}' (size: 74)
+[2024-03-29 10:00:57] 10:00:57 (12864): Destroying browser id 1, 0 remain
+[2024-03-29 10:00:57] 10:00:57 (12864): Browser 1 closed for job 0
+[2024-03-29 10:00:57] 10:00:57 (12864): Found job 0 in group 0 (of 1 groups)
+[2024-03-29 10:00:57] 10:00:57 (12864): Job group 0 finished
+[2024-03-29 10:00:57] 10:00:57 (12864): CefMessagePumpStd::Quit()
+[2024-03-29 10:00:57] 10:00:57 (5216): PdfDocumentFactory created document 000002662BA66BB0 from 31574 bytes
+[2024-03-29 10:00:57] 10:00:57 (5216): Storing new document 0
+[2024-03-29 10:00:58] Retrieved license key from inline variable
+[2024-03-29 10:00:58] Error 0x01 while validating license key
+[2024-03-29 10:00:58] No license key detected, applying trial watermark

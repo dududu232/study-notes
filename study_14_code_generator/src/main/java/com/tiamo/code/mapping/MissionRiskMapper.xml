@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tiamo.code.mapper.MissionRiskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tiamo.code.entity.MissionRisk">
+        <id column="id" property="id" />
+        <result column="risk_num" property="riskNum" />
+        <result column="risk_desc" property="riskDesc" />
+        <result column="risk_source" property="riskSource" />
+        <result column="second_risk_area_id" property="secondRiskAreaId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, risk_num, risk_desc, risk_source, second_risk_area_id
+    </sql>
+
+</mapper>

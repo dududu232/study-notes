@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tiamo.code.mapper.SimScenarioEventMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.tiamo.code.entity.SimScenarioEvent">
+        <id column="id" property="id" />
+        <result column="type" property="type" />
+        <result column="event_time" property="eventTime" />
+        <result column="description" property="description" />
+        <result column="force_id" property="forceId" />
+        <result column="extra_params" property="extraParams" />
+        <result column="mission_id" property="missionId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, type, event_time, description, force_id, extra_params, mission_id
+    </sql>
+
+</mapper>
